@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #form-container{
+            margin-left: 25% ;
+            margin-right: 25% ;
+            height: 500px;
+            width: 50%;
+            border: 5px black solid;
+            background-color: aqua;
+            border-radius: 50px;
+        }
+        h1{
+            text-align: center;
+            text-decoration: solid;
+            font-size: 50px;
+        }
+        form label{
+            font-size: 30px;
+            margin-left: 25% ;
+            margin-right: 25% ;
+            width: 50%;
+        }
+        form input{
+            margin-left: 25% ;
+            margin-right: 25% ;
+            width: 50%;
+        }
+    </style>
+    <title>Vision Library</title>
+</head>
+
+<body style="background-image: url('image/library.jpg')">
+    <div id="form-container">
+        <h1>Registration Form</h1>
+        <form id="registration-form">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+            <label for="course">Course:</label><br>
+            <input type="text" id="course" name="course" required><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br>
+            <br><br><br>
+            <input type="submit" value="Submit" id="submit-btn" onclick="return Welcome();">
+        </form>
+    <script>
+        function Wecome(){
+            const name= document.getElementById[name].value;
+            alert("WELCOME"+ name);
+        }
+    </script>
+</body>
+
+</html>
